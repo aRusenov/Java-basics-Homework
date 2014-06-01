@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-import sun.tools.jar.resources.jar;
 
 
 public class _02_SumCards {

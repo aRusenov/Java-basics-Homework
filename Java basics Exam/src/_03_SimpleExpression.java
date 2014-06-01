@@ -14,7 +14,6 @@ public class _03_SimpleExpression {
 		char[] chars = line.toCharArray(); 
 		
 		BigDecimal sum = new BigDecimal("0");
-		//double sum = 0;
 		BigDecimal currentNumber = getNextNumber(0, chars);
 		sum = sum.add(currentNumber);
 		for (int i = 0; i < chars.length; i++) {
